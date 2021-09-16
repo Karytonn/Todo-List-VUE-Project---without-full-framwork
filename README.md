@@ -1,10 +1,21 @@
+
 # Todo List VUE Project 
-_without-full-framwork_
 
-### In /app folder contain the Frontand
+_Without full framwork_
 
-Developed with webpack, VUE JS and AXIOS
+## To deploy this project run 
 
-### In /fake-api folder contain the Backend
+```bash
+  npm install
+```
 
-Developed with JSON Server
+```bash
+  npm run dev
+```
+
+  
+## Tech Stack
+
+**Client:** Webpack, VUE JS, AXIOS
+
+**Server:** Node, JSON Server
