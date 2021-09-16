@@ -1,0 +1,29 @@
+{
+  "todos": [
+    {
+      "text": "Learning HTML",
+      "done": true,
+      "id": 1
+    },
+    {
+      "text": "Learning CSS",
+      "done": true,
+      "id": 2
+    },
+    {
+      "text": "Learning JavaScript",
+      "done": true,
+      "id": 3
+    },
+    {
+      "text": "Learning TypeScript",
+      "done": true,
+      "id": 4
+    },
+    {
+      "text": "Learning VUE",
+      "done": false,
+      "id": 5
+    }
+  ]
+}

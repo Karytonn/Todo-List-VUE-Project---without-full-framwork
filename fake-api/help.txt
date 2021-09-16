@@ -1,0 +1,5 @@
+// Initializing Node
+>> npm init -y
+
+//Install local server
+>> npm i json-server 

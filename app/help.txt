@@ -1,0 +1,38 @@
+// Initializing Node
+>> npm init -y
+
+//Install packges for working with Webpack
+>> npm install webpack webpack-cli webpack-dev-server @babel/polyfill --save-dev
+
+
+//Script for run on packge.json
+...
+"scripts": {
+    "dev": "webpack serve --mode=development",
+    "build": "webpack serve --mode=production"
+  },
+...
+
+
+
+
+
+//VUE configs
+
+//For install
+>> npm i vue@next
+
+//Add this on webpack file config
+const webpack = require('webpack');
+
+resolve: {
+  alias: {
+    vue: 'vue/dist/vue.esm-bundler.js',
+  },
+},
+plugins: [
+  new webpack.DefinePlugin({
+    __VUE_OPTIONS_API__: true,
+    __VUE_PROD_DEVTOOLS__: false,
+  }),
+],
