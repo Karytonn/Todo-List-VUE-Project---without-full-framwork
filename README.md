@@ -5,6 +5,6 @@ _without-full-framwork_
 
 Developed with webpack, VUE JS and AXIOS
 
-### In fake-api folder contain the Backend
+### In /fake-api folder contain the Backend
 
 Developed with JSON Server
